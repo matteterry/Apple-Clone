@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+nav {
+  background-color: black;
+  padding: 6px;
+  height: 40px;
+  margin-bottom: 24px
+}
+
+.container {
+  width: 8%;
+  display: inline-block;
+  margin-top: -10px;
+  max-width: 100%;
+  height: 16px;
+}
+
+header {
+  text-align: center;
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 42px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.dek_hed {
+  text-align: center;
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24pt;
+  font-weight: 300;
+}
+
+.hero {
+  display: block;
+  margin: 12px auto 12px auto;
+  width: 60%;
+  object-fit: none;
+  height: 500px;
+  object-position: center -200px;
+}
+
+.subhero {
+  width: 24%;
+  display: inline-block;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: rgb(230, 230, 230);
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.foot_list {
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 50;
+}
+
+.footer_col {
+  width: 8%;
+  display: inline-block;
+  vertical-align: text-top;
+  padding-bottom: 24px;
+  padding-top: 12px;
+  margin-left: 75px;
+  margin-right: 50px;
+}
+
+.small_print {
+  margin-left: 75px;
+  margin-bottom: 24px;
+}
+
+.copy_box {
+  margin-left: 75px;
+  margin-bottom: 48px;
+  display: inline;
+}
+
+.region {
+  float: right;
+  width: 12%;
+  padding-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+hr {
+  font-weight: 100;
+}
